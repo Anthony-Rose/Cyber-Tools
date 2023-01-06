@@ -5,7 +5,7 @@ import time
 from pymodbus.client.sync import ModbusTcpClient as ModbusClient
 from pymodbus.exceptions import ConnectionException
 
-#retrieving the IP and port of the registry from the user
+#retrieving the IP, port, and registry bit of interest from the user
 ip = sys.argv[1]
 port = int(sys.argv[2])
 registry = int(sys.argv[3])
