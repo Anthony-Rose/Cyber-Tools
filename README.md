@@ -1,5 +1,4 @@
 # Cyber-Tools
-Tool to disable an electric generator via ICS/SCADA server
 
 DestroyGen.py -
 Python command-line tool that utilizes the PyModBus library to disable an electric generator via the power bit on an ICS/SCADA registry.  
