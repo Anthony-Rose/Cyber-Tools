@@ -5,5 +5,5 @@ Python command-line tool that utilizes the PyModBus library to disable an electr
 The tool takes the ip, port, and power registry bit of a ICS/SCADA server in order to cycle the power at 7 second increments. 
 I was inspired to write this tool after completing the ICS/SCADA rooms on TryHackMe.
 
-reverseshell.py - 
-Program to open a socket and wait for commands.
+clientside and serverside reverse shells- 
+reverse shell, hardcoded for port 443
